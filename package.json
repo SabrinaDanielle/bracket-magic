@@ -1,0 +1,41 @@
+{
+  "name": "bracket-magic",
+  "version": "0.1.0",
+  "description": "react boiler plate created by me, SDG",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabrinaDanielle/bracket-magic.git"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "starter"
+  ],
+  "author": "Sabrina Danielle Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SabrinaDanielle/bracket-magic/issues"
+  },
+  "homepage": "https://github.com/SabrinaDanielle/bracket-magic#readme",
+  "devDependencies": {
+    "@babel/cli": "7.12.1",
+    "@babel/core": "7.12.3",
+    "@babel/preset-env": "7.12.1",
+    "@babel/preset-react": "7.12.1",
+    "babel-loader": "8.1.0",
+    "html-webpack-plugin": "4.5.0",
+    "webpack": "5.1.3",
+    "webpack-cli": "4.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
