@@ -3,7 +3,7 @@ import { hot } from 'react-hot-loader';
 
 const App = () => {
   return (
-    <h1>
+    <h1 className="test">
       <span role="img" aria-label="celebrate">
         🎉
       </span>
