@@ -8,3 +8,6 @@ code below from babelrc caused errors, and deprecated,
 
 
 ```
+
+add react axe for accessibilty
+and fix the config above
