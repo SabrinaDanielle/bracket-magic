@@ -1,10 +1,18 @@
 import React from 'react';
+import { hot } from 'react-hot-loader';
 
+const App = () => {
+  return (
+    <h1>
+      <span role="img" aria-label="celebrate">
+        🎉
+      </span>
+      Very Hot React Boilerplate -- by Magickal Bri
+      <span role="img" aria-label="celebrate">
+        🎉
+      </span>
+    </h1>
+  );
+};
 
-class App extends React.Component {
-    render(){
-      return <h1> 🎉React Boilerplate -- by Bri🎉</h1>
-    }
-}
-
-export default App;
+export default hot(module)(App);
