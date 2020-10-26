@@ -1,3 +1,6 @@
+React Starter Project
+
+
 #TODO
 
 code below from babelrc caused errors, and deprecated,
